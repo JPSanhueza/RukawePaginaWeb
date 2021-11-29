@@ -1,0 +1,150 @@
+.section{
+    padding: 5.7rem 1.4rem;  
+}
+
+.top-bar{
+    height: 3rem;
+    font-size: 1.4rem;
+    padding-right: 1.4rem;  
+}
+
+.menu-btn{
+    display: none;
+}
+
+.menu{
+    position: static;
+    width: auto;
+    opacity: 1;
+    pointer-events: auto;
+    flex-direction: row;
+    background-color: transparent;
+   
+}
+
+.menu a{
+    padding: 0 1rem;
+    color: var(--white-color);
+}
+
+.menu a:hover{
+    background-color: transparent;
+}
+
+.header{
+    position: sticky;
+    top:0;
+    padding: 0.5rem;
+    height: calc(var(--header-height) - 0.5rem);
+    z-index: 1;
+}
+
+h1{
+    font-size: 3.6rem;
+}
+
+h2{
+    font-size: 3.6rem;
+}
+
+.section-title{   
+    width: 550px;      
+}
+
+.cabanas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabanas img{
+    width: 90%;
+}
+
+.gallery {
+    width: 100%;
+}
+
+#gallery-container{
+    max-width: 1280px;
+    grid-template-columns: repeat(6,1fr);       
+}
+
+#internal-container-lightbox{
+    max-width: 60vw;
+    min-height: 33vh;
+}
+
+.services{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-gap: 2px;
+      max-width: 100%;
+      min-width: 300px;     
+} 
+
+.services .section-title {
+    grid-column: span 3;
+    /* grid-row: span 2; */
+  }
+
+.experiences{
+    display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-gap: 2px;
+      max-width: 100%;
+      min-width: 300px;     
+
+}
+
+.experiences .section-title {
+    grid-column: span 2;
+    /* grid-row: span 2; */
+  }
+
+.panorama{
+    display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-gap: 4px;
+      max-width: 100%;
+      min-width: 300px;     
+
+}
+
+.panorama .title-parrafo {
+    grid-column: span 3;
+    /* padding: 0 50vh; */
+    /* grid-row: span 2; */
+}
+
+.wrapper-ubi-contacto{
+    display: flex;
+}
+
+.img-ubicacion{    
+    width: 97%;
+}
+
+.img-contacto{
+    display: none;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 4px;
+    max-width: 100%;
+    min-width: 300px;  
+    justify-content: center;
+    align-items: center;
+
+}
+.footer-logo img{
+    width: 17vw;
+    /* height: 20hw; */
+}
+
+.img-rrss {
+    width: 300px;
+}
